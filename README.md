@@ -2,22 +2,21 @@
 
 # Business Undersatnding
 
-**Starbucks Corporation** is a global coffee company with over 30,000 stores across 80+ countries. To build customer loyalty, it offers a **Starbucks Rewards Program**, where members receive promotional offers through various channels. However, customer responses to these offers vary significantly, leading to missed engagement opportunities and inefficient marketing. Understanding customer behavior is key to delivering relevant promotions and improving customer retention.
+- **Starbucks Corporation** is a global coffee company with over 30,000 stores across 80+ countries. To build customer loyalty, it offers a **Starbucks Rewards Program**, where members receive promotional offers through various channels. However, customer responses to these offers vary significantly, leading to missed engagement opportunities and inefficient marketing. Understanding customer behavior is key to delivering relevant promotions and improving customer retention.
 
 # Problem statement
 
-Starbucks currently promotes products to customers **without any prior segmentation**, treating all users as a single group. This approach leads to inefficient marketing and lower engagement with promotional offers.
-By analyzing customer behavior data, the company can discover **patterns and similarities** that help in grouping users with common characteristics. This enables **targeted marketing**, helping Starbucks maximize offer redemption and revenue, while reducing promotional costs by focusing on the most responsive customer segments.
+- Starbucks currently promotes products to customers **without any prior segmentation**, treating all users as a single group. This approach leads to inefficient marketing and lower engagement    with promotional offers. By analyzing customer behavior data, the company can discover **patterns and similarities** that help in grouping users with common characteristics. This enables        **targeted marketing**, helping Starbucks maximize offer redemption and revenue, while reducing promotional costs by focusing on the most responsive customer segments.
 
 # Project Objective
 
-This project involves analyzing user demographics and offer interactions to identify **distinct customer segments**. These segments allow the company to gain behavioral insights and develop better marketing strategies tailored to specific groups.
+- This project involves analyzing user demographics and offer interactions to identify **distinct customer segments**. These segments allow the company to gain behavioral insights and develop     better marketing strategies tailored to specific groups.
 
-Here’s a brief outline of what I did:
-- Merged and cleaned dataset given in this repo.
-- Transformed raw data through preprocessing.
-- Applied K means clustering algorithum to group users.
-- Interpreted clusters to derive business insights
+  Here’s a brief outline of what I did:
+  - Merged and cleaned dataset given in this repo.
+  - Transformed raw data through preprocessing.
+  - Applied K means clustering algorithum to group users.
+  - Interpreted clusters to derive business insights
 
 # Dataset
 
