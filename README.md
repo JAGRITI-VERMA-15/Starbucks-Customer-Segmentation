@@ -1,14 +1,14 @@
 # **STARBUCKS CUSTOMER SEGMENTATION**
 
-# Business Undersatnding
+# Business Undersatnding : 
 
 - **Starbucks Corporation** is a global coffee company with over 30,000 stores across 80+ countries. To build customer loyalty, it offers a **Starbucks Rewards Program**, where members receive promotional offers through various channels. However, customer responses to these offers vary significantly, leading to missed engagement opportunities and inefficient marketing. Understanding customer behavior is key to delivering relevant promotions and improving customer retention.
 
-# Problem statement
+# Problem statement : 
 
 - Starbucks currently promotes products to customers **without any prior segmentation**, treating all users as a single group. This approach leads to inefficient marketing and lower engagement    with promotional offers. By analyzing customer behavior data, the company can discover **patterns and similarities** that help in grouping users with common characteristics. This enables        **targeted marketing**, helping Starbucks maximize offer redemption and revenue, while reducing promotional costs by focusing on the most responsive customer segments.
 
-# Project Objective
+# Project Objective : 
 
 - This project involves analyzing user demographics and offer interactions to identify **distinct customer segments**. These segments allow the company to gain behavioral insights and develop     better marketing strategies tailored to specific groups.
 
@@ -18,7 +18,7 @@
   - Applied K means clustering algorithum to group users.
   - Interpreted clusters to derive business insights
 
-# Dataset
+# Dataset : 
 
 The project uses three JSON files provided by Udacity that simulate real-world data from the Starbucks Rewards Program:
 
@@ -28,7 +28,7 @@ The project uses three JSON files provided by Udacity that simulate real-world d
 
 Datasets are available in this repositry itself.
 
-# Project workflow 
+# Project workflow : 
 
 ### 1. Data Understanding
 
@@ -70,19 +70,23 @@ Below are some visualizations and insights from my analysis:
 
 <img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/dad5f0ce-b8ea-43d2-800a-449167854135" />
 
+
 <img width="2990" height="495" alt="image" src="https://github.com/user-attachments/assets/4295b3e6-82f8-47fe-be97-d1b7857e3767" />
+
 
 <img width="2990" height="495" alt="image" src="https://github.com/user-attachments/assets/aa50acf9-def9-4703-bbe4-09c640f3d852" />
 
+
 <img width="773" height="471" alt="image" src="https://github.com/user-attachments/assets/7b89fe5a-d155-42fe-9566-421cd37d04fd" />
 
-### 8. 🔍 Interpretation of Clusters
+### 8. Interpretation of Clusters
 
 Finlly i interpreted the resulting customer segments according to their behaviour as follows:
 
 <img width="409" height="411" alt="image" src="https://github.com/user-attachments/assets/5302b9c5-7836-4a26-8356-34d5ddea967d" />
 
 <img width="1789" height="396" alt="image" src="https://github.com/user-attachments/assets/feaf66b2-acf9-446a-b7a1-82b9c0a10018" />
+
 
 - **Most Valuable Customers (MVC) – Cluster 4** - High-spending users with excellent engagement and completion rates.
 - **High Potential Customers – Cluster 0** - Users with strong responsiveness.
