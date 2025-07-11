@@ -41,15 +41,8 @@ Then, I cleaned the dataset by removing null values from the 'gender' and 'incom
 
 ### 3. Exploratory Data Analysis (EDA)
 
-Then, I performed comprehensive EDA on all datasets:
-
-1. **Univariate Analysis**  
-   - Analyzed each DataFrame individually  
-   - Reviewed summary statistics for all variables related to offers, demographics, and event logs
-
-2. **Bivariate Analysis**  
-   - Explored relationships within customer demographic data (`profile`): age, gender, and income  
-   - Identified trends that might influence offer response behavior
+I then performed EDA on the all DataFrames individually to gain a comprehensive understanding of the data.
+Univariate analysis was performed on each DataFrame, summarizing the statistics of all variables related to offers, customers, and events. Bivariate analysis was applied to the customer demographic data to explore the relationships between age, gender, and income.
 
 ### 4. Data Preprocessing
 
@@ -68,14 +61,36 @@ Then, I segmented customers based on their behavior during the campaign month. I
 
 I applied **K-Means Clustering** to segment customers based on demographic and behavioral features. To determine the ideal cluster count, I used both the **Elbow Method** and **Silhouette Score**. After selecting the optimal number of clusters, I trained the model and labeled each customer accordingly for further analysis.
 
-<img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/11ced1e0-9217-4052-b700-7650db11db24" />
-
+<img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/11ced1e0-9217-4052-b700-7650db11db24" /> <img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/2c554cc6-d3e5-49d4-b126-85656553fa04" />
 
 ### 7. Results & Visualizations
 
 Once the model was trained, I analyzed the clusters using visualizations like bar charts,scatter plot and pair plots to understand the differences in behavior, spending, and responsiveness across segments.
 
 Below are some visualizations and insights from my analysis:
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/dad5f0ce-b8ea-43d2-800a-449167854135" />
+
+<img width="2990" height="495" alt="image" src="https://github.com/user-attachments/assets/4295b3e6-82f8-47fe-be97-d1b7857e3767" />
+
+<img width="2990" height="495" alt="image" src="https://github.com/user-attachments/assets/aa50acf9-def9-4703-bbe4-09c640f3d852" />
+
+<img width="773" height="471" alt="image" src="https://github.com/user-attachments/assets/7b89fe5a-d155-42fe-9566-421cd37d04fd" />
+
+### 8. 🔍 Interpretation of Clusters
+
+Finlly i interpreted the resulting customer segments according to their behaviour as follows:
+
+<img width="409" height="411" alt="image" src="https://github.com/user-attachments/assets/5302b9c5-7836-4a26-8356-34d5ddea967d" />
+
+<img width="1789" height="396" alt="image" src="https://github.com/user-attachments/assets/feaf66b2-acf9-446a-b7a1-82b9c0a10018" />
+
+- **Most Valuable Customers (MVC) – Cluster 4** - High-spending users with excellent engagement and completion rates.
+- **High Potential Customers – Cluster 0** - Users with strong responsiveness.
+- **Offer Viewers Customers – Cluster 1** - Customers who frequently view promotions but seldom complete them.
+- **Regular Customers – Cluster 2** - Consistent, moderate spenders who engage steadily.
+- **Low Engagers Customers – Cluster 3** - Users with minimal interaction.
+
 
 
 
