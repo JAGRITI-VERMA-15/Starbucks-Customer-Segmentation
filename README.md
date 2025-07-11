@@ -1,4 +1,4 @@
-# **Starbucks-Customer-Segmentation**
+# **STARBUCKS CUSTOMER SEGMENTATION**
 
 # Business Undersatnding
 
