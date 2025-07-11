@@ -89,9 +89,9 @@ Finlly i interpreted the resulting customer segments according to their behaviou
 
 
 - **Most Valuable Customers (MVC) – Cluster 4** - High-spending users with excellent engagement and completion rates.
+- **Regular Customers – Cluster 2** - Consistent, moderate spenders who engage steadily.
 - **High Potential Customers – Cluster 0** - Users with strong responsiveness.
 - **Offer Viewers Customers – Cluster 1** - Customers who frequently view promotions but seldom complete them.
-- **Regular Customers – Cluster 2** - Consistent, moderate spenders who engage steadily.
 - **Low Engagers Customers – Cluster 3** - Users with minimal interaction.
 
 
